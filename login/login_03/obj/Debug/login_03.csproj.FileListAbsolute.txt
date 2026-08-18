@@ -1,0 +1,11 @@
+D:\Repositorios\C#\login\login_03\bin\Debug\login_03.exe.config
+D:\Repositorios\C#\login\login_03\bin\Debug\login_03.exe
+D:\Repositorios\C#\login\login_03\bin\Debug\login_03.pdb
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.csproj.AssemblyReference.cache
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.Form1.resources
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.Form2.resources
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.Properties.Resources.resources
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.csproj.GenerateResource.cache
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.csproj.CoreCompileInputs.cache
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.exe
+D:\Repositorios\C#\login\login_03\obj\Debug\login_03.pdb

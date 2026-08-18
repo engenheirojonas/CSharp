@@ -1,0 +1,150 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Bastion.Krypton.Extended.Circular.ProgressBar/1.0.0": {
+        "dependencies": {
+          "Bastion.Krypton.Extended.Debug.Tools": "1.0.0",
+          "Bastion.Krypton.Extended.Developer.Utilities": "1.0.0",
+          "Bastion.Krypton.Toolkit": "1.0.0",
+          "Unofficial.WinFormAnimation": "2.0.2"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/Bastion.Krypton.Extended.Circular.ProgressBar.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Bastion.Krypton.Extended.Debug.Tools/1.0.0": {
+        "runtime": {
+          "lib/net10.0-windows7.0/Bastion.Krypton.Extended.Debug.Tools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Bastion.Krypton.Extended.Developer.Utilities/1.0.0": {
+        "dependencies": {
+          "Bastion.Krypton.Extended.Shared": "1.0.0",
+          "Bastion.Krypton.Toolkit": "1.0.0",
+          "WindowsAPICodePackShell": "8.0.12"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/Bastion.Krypton.Extended.Developer.Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Bastion.Krypton.Extended.Shared/1.0.0": {
+        "dependencies": {
+          "Bastion.Krypton.Toolkit": "1.0.0"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/Bastion.Krypton.Extended.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Bastion.Krypton.Toolkit/1.0.0": {
+        "runtime": {
+          "lib/net10.0-windows7.0/Bastion.Krypton.Toolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Unofficial.WinFormAnimation/2.0.2": {
+        "runtime": {
+          "lib/net8.0-windows7.0/WinFormAnimation_DotNET.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "WindowsAPICodePackCore/8.0.12": {
+        "runtime": {
+          "lib/net10.0-windows7.0/Microsoft.WindowsAPICodePack.Core.dll": {
+            "assemblyVersion": "8.0.12.0",
+            "fileVersion": "8.0.12.0"
+          }
+        }
+      },
+      "WindowsAPICodePackShell/8.0.12": {
+        "dependencies": {
+          "WindowsAPICodePackCore": "8.0.12"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "assemblyVersion": "8.0.12.0",
+            "fileVersion": "8.0.12.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bastion.Krypton.Extended.Circular.ProgressBar/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AIgFpb/u+aQAvLZHjXfTKyvwhxK/kZtLQ4WV4RE0ALg58YVKngy9Pk8nKxUyMfRmB21Or/ODK7RHFKzlUqdYNw==",
+      "path": "bastion.krypton.extended.circular.progressbar/1.0.0",
+      "hashPath": "bastion.krypton.extended.circular.progressbar.1.0.0.nupkg.sha512"
+    },
+    "Bastion.Krypton.Extended.Debug.Tools/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W52DnIjdC7HjCBR3IOHF1e6+Rb7yBeIl3l2wAUC0EmKwLf2rXwFCQRwUyz6/X4zydiY5fLUYnbjnnCKSeMiqAQ==",
+      "path": "bastion.krypton.extended.debug.tools/1.0.0",
+      "hashPath": "bastion.krypton.extended.debug.tools.1.0.0.nupkg.sha512"
+    },
+    "Bastion.Krypton.Extended.Developer.Utilities/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-50fGtpPQcfJ7TYSEHN69XIK4bO41mgZWWBq8vC23PnoaEfdnd0PV5GpZa8v/caoMOZ0wELZhup+7WqV7y/Ljig==",
+      "path": "bastion.krypton.extended.developer.utilities/1.0.0",
+      "hashPath": "bastion.krypton.extended.developer.utilities.1.0.0.nupkg.sha512"
+    },
+    "Bastion.Krypton.Extended.Shared/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1k7zoNlj7LOgTdE80nODJR8yPkQlUwsH1lyf40SSDw/eVrHE0VzfZM+/dkUdSUKtsHjIeUsZjn3jgjKdGCp/Mw==",
+      "path": "bastion.krypton.extended.shared/1.0.0",
+      "hashPath": "bastion.krypton.extended.shared.1.0.0.nupkg.sha512"
+    },
+    "Bastion.Krypton.Toolkit/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XLgJFbFfJNy7VIcr9dWtXubdCQzkCpxoWUY/zfTwnED+vg0QRgnISn6yi538CgPSXIPbejHgWJUTmwAE1lkyzw==",
+      "path": "bastion.krypton.toolkit/1.0.0",
+      "hashPath": "bastion.krypton.toolkit.1.0.0.nupkg.sha512"
+    },
+    "Unofficial.WinFormAnimation/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GDaT9UAMWEiXML45JINa+4oVuHxW1HWGRHbb/h9kvkFEJqIjx5UL8q3UynUvjKFI595oWOzeknBreIRaXGsdmw==",
+      "path": "unofficial.winformanimation/2.0.2",
+      "hashPath": "unofficial.winformanimation.2.0.2.nupkg.sha512"
+    },
+    "WindowsAPICodePackCore/8.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wXevuooFEDvdYRlKblW1iX+iIBjFRyijmqfLRIO7VPVHg8QBN2dMmWFdXRClKydDoDFFBlj+qJwyuTCz/sUJcA==",
+      "path": "windowsapicodepackcore/8.0.12",
+      "hashPath": "windowsapicodepackcore.8.0.12.nupkg.sha512"
+    },
+    "WindowsAPICodePackShell/8.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vpHx16thxx2+mgT+8izRn+Q3lf3jOTTbcFvBZY/sfcK46OuKS4e1ceq0D+y0Y4t6ukq3kqcTN0Wv/njhvky83w==",
+      "path": "windowsapicodepackshell/8.0.12",
+      "hashPath": "windowsapicodepackshell.8.0.12.nupkg.sha512"
+    }
+  }
+}

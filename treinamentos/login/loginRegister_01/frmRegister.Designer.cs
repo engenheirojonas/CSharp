@@ -33,13 +33,13 @@
             txtUsername = new TextBox();
             txtPassword = new TextBox();
             label3 = new Label();
-            txtConfirn = new TextBox();
+            txtConfirm = new TextBox();
             label4 = new Label();
             chkShowPass = new CheckBox();
             btnRegister = new Button();
-            button1 = new Button();
             label5 = new Label();
-            label6 = new Label();
+            lbl_Back = new Label();
+            btnClear = new Button();
             SuspendLayout();
             // 
             // label1
@@ -81,6 +81,7 @@
             txtPassword.Location = new Point(41, 200);
             txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '•';
             txtPassword.Size = new Size(216, 28);
             txtPassword.TabIndex = 4;
             // 
@@ -93,16 +94,17 @@
             label3.TabIndex = 3;
             label3.Text = "Password :";
             // 
-            // txtConfirn
+            // txtConfirm
             // 
-            txtConfirn.BackColor = Color.FromArgb(230, 231, 233);
-            txtConfirn.BorderStyle = BorderStyle.None;
-            txtConfirn.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtConfirn.Location = new Point(41, 269);
-            txtConfirn.Multiline = true;
-            txtConfirn.Name = "txtConfirn";
-            txtConfirn.Size = new Size(216, 28);
-            txtConfirn.TabIndex = 6;
+            txtConfirm.BackColor = Color.FromArgb(230, 231, 233);
+            txtConfirm.BorderStyle = BorderStyle.None;
+            txtConfirm.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtConfirm.Location = new Point(41, 269);
+            txtConfirm.Multiline = true;
+            txtConfirm.Name = "txtConfirm";
+            txtConfirm.PasswordChar = '•';
+            txtConfirm.Size = new Size(216, 28);
+            txtConfirm.TabIndex = 6;
             // 
             // label4
             // 
@@ -124,6 +126,7 @@
             chkShowPass.TabIndex = 7;
             chkShowPass.Text = "Show Password";
             chkShowPass.UseVisualStyleBackColor = true;
+            chkShowPass.CheckedChanged += chkShowPass_CheckedChanged;
             // 
             // btnRegister
             // 
@@ -138,19 +141,7 @@
             btnRegister.TabIndex = 8;
             btnRegister.Text = "REGISTER";
             btnRegister.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.White;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = Color.FromArgb(116, 86, 176);
-            button1.Location = new Point(41, 400);
-            button1.Name = "button1";
-            button1.Size = new Size(213, 35);
-            button1.TabIndex = 9;
-            button1.Text = "Clear";
-            button1.UseVisualStyleBackColor = false;
+            btnRegister.Click += btnRegister_Click;
             // 
             // label5
             // 
@@ -161,15 +152,30 @@
             label5.TabIndex = 10;
             label5.Text = "Already have an account.";
             // 
-            // label6
+            // lbl_Back
             // 
-            label6.AutoSize = true;
-            label6.ForeColor = Color.FromArgb(116, 86, 176);
-            label6.Location = new Point(91, 476);
-            label6.Name = "label6";
-            label6.Size = new Size(92, 17);
-            label6.TabIndex = 11;
-            label6.Text = "Back to Login";
+            lbl_Back.AutoSize = true;
+            lbl_Back.ForeColor = Color.FromArgb(116, 86, 176);
+            lbl_Back.Location = new Point(91, 476);
+            lbl_Back.Name = "lbl_Back";
+            lbl_Back.Size = new Size(92, 17);
+            lbl_Back.TabIndex = 11;
+            lbl_Back.Text = "Back to Login";
+            lbl_Back.Click += lbl_Back_Click;
+            // 
+            // btnClear
+            // 
+            btnClear.BackColor = Color.White;
+            btnClear.Cursor = Cursors.Hand;
+            btnClear.FlatStyle = FlatStyle.Flat;
+            btnClear.ForeColor = Color.FromArgb(116, 86, 176);
+            btnClear.Location = new Point(41, 400);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(213, 35);
+            btnClear.TabIndex = 22;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
             // frmRegister
             // 
@@ -177,12 +183,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(305, 544);
-            Controls.Add(label6);
+            Controls.Add(btnClear);
+            Controls.Add(lbl_Back);
             Controls.Add(label5);
-            Controls.Add(button1);
             Controls.Add(btnRegister);
             Controls.Add(chkShowPass);
-            Controls.Add(txtConfirn);
+            Controls.Add(txtConfirm);
             Controls.Add(label4);
             Controls.Add(txtPassword);
             Controls.Add(label3);
@@ -206,12 +212,12 @@
         private TextBox txtUsername;
         private TextBox txtPassword;
         private Label label3;
-        private TextBox txtConfirn;
+        private TextBox txtConfirm;
         private Label label4;
         private CheckBox chkShowPass;
         private Button btnRegister;
-        private Button button1;
         private Label label5;
-        private Label label6;
+        private Label lbl_Back;
+        private Button btnClear;
     }
 }

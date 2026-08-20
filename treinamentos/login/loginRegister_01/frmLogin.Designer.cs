@@ -30,7 +30,7 @@
         {
             label6 = new Label();
             label5 = new Label();
-            button1 = new Button();
+            btnClear = new Button();
             btnRegister = new Button();
             chkShowPass = new CheckBox();
             txtPassword = new TextBox();
@@ -49,6 +49,7 @@
             label6.Size = new Size(101, 17);
             label6.TabIndex = 23;
             label6.Text = "Create Account";
+            label6.Click += label6_Click;
             // 
             // label5
             // 
@@ -59,18 +60,19 @@
             label5.TabIndex = 22;
             label5.Text = "Don't have an account.";
             // 
-            // button1
+            // btnClear
             // 
-            button1.BackColor = Color.White;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = Color.FromArgb(116, 86, 176);
-            button1.Location = new Point(46, 316);
-            button1.Name = "button1";
-            button1.Size = new Size(213, 35);
-            button1.TabIndex = 21;
-            button1.Text = "Clear";
-            button1.UseVisualStyleBackColor = false;
+            btnClear.BackColor = Color.White;
+            btnClear.Cursor = Cursors.Hand;
+            btnClear.FlatStyle = FlatStyle.Flat;
+            btnClear.ForeColor = Color.FromArgb(116, 86, 176);
+            btnClear.Location = new Point(46, 316);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(213, 35);
+            btnClear.TabIndex = 21;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
             // btnRegister
             // 
@@ -157,7 +159,7 @@
             ClientSize = new Size(289, 505);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(button1);
+            Controls.Add(btnClear);
             Controls.Add(btnRegister);
             Controls.Add(chkShowPass);
             Controls.Add(txtPassword);
@@ -179,7 +181,7 @@
 
         private Label label6;
         private Label label5;
-        private Button button1;
+        private Button btnClear;
         private Button btnRegister;
         private CheckBox chkShowPass;
         private TextBox txtPassword;

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|d:\\repositorios\\csharp\\treinamentos\\login\\loginregister_01\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -11,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|solutionrelative:frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|d:\\repositorios\\csharp\\treinamentos\\login\\loginregister_01\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|solutionrelative:frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|d:\\repositorios\\csharp\\treinamentos\\login\\loginregister_01\\frmregister.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8335C60-42CA-31D3-9E81-3FA4762B7A26}|loginRegister_01.csproj|solutionrelative:frmregister.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +30,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmRegister.cs",
+              "DocumentIndex": 3,
+              "Title": "frmRegister.cs [Projeto]",
               "DocumentMoniker": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.cs",
               "RelativeDocumentMoniker": "frmRegister.cs",
-              "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.cs",
-              "RelativeToolTip": "frmRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.cs [Projeto]",
+              "RelativeToolTip": "frmRegister.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T19:30:52.641Z",
+              "WhenOpened": "2026-08-20T18:08:30.765Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmRegister.Designer.cs",
+              "DocumentMoniker": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.Designer.cs",
+              "RelativeDocumentMoniker": "frmRegister.Designer.cs",
+              "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.Designer.cs",
+              "RelativeToolTip": "frmRegister.Designer.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAArwKIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T18:05:39.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmLogin.cs",
+              "RelativeToolTip": "frmLogin.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T17:13:18.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmLogin.cs [Projeto]",
               "DocumentMoniker": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmLogin.cs",
               "RelativeDocumentMoniker": "frmLogin.cs",
@@ -52,14 +85,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmRegister.cs [Projeto]",
+              "Title": "frmRegister.cs",
               "DocumentMoniker": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.cs",
               "RelativeDocumentMoniker": "frmRegister.cs",
-              "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.cs [Projeto]",
-              "RelativeToolTip": "frmRegister.cs [Projeto]",
+              "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\login\\loginRegister_01\\frmRegister.cs",
+              "RelativeToolTip": "frmRegister.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T19:29:59.146Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-08-19T19:30:52.641Z",
+              "EditorCaption": ""
             }
           ]
         }

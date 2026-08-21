@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Repositorios\\CSharp\\treinamentos\\login\\login_mysql_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F6CC221-BC54-4A11-9E13-F1BD8B7B98E9}|login_mysql_01.csproj|d:\\repositorios\\csharp\\treinamentos\\login\\login_mysql_01\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0F6CC221-BC54-4A11-9E13-F1BD8B7B98E9}|login_mysql_01.csproj|solutionrelative:frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4F74BD55-0768-5829-EF6D-C939E935BC34}|login_mysql_01.csproj|d:\\repositorios\\csharp\\treinamentos\\login\\login_mysql_01\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F74BD55-0768-5829-EF6D-C939E935BC34}|login_mysql_01.csproj|solutionrelative:frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F6CC221-BC54-4A11-9E13-F1BD8B7B98E9}|login_mysql_01.csproj|d:\\repositorios\\csharp\\treinamentos\\login\\login_mysql_01\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0F6CC221-BC54-4A11-9E13-F1BD8B7B98E9}|login_mysql_01.csproj|D:\\Repositorios\\CSharp\\treinamentos\\login\\login_mysql_01\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F6CC221-BC54-4A11-9E13-F1BD8B7B98E9}|login_mysql_01.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -41,8 +41,7 @@
               "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\login\\login_mysql_01\\frmLogin.cs [Projeto]",
               "RelativeToolTip": "frmLogin.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T14:58:48.056Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-08-21T14:58:48.056Z"
             }
           ]
         }

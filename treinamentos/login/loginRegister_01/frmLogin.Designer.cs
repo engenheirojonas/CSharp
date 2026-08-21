@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label6 = new Label();
+            lbl_create = new Label();
             label5 = new Label();
             btnClear = new Button();
             btnRegister = new Button();
@@ -40,16 +40,16 @@
             label1 = new Label();
             SuspendLayout();
             // 
-            // label6
+            // lbl_create
             // 
-            label6.AutoSize = true;
-            label6.ForeColor = Color.FromArgb(116, 86, 176);
-            label6.Location = new Point(87, 392);
-            label6.Name = "label6";
-            label6.Size = new Size(101, 17);
-            label6.TabIndex = 23;
-            label6.Text = "Create Account";
-            label6.Click += label6_Click;
+            lbl_create.AutoSize = true;
+            lbl_create.ForeColor = Color.FromArgb(116, 86, 176);
+            lbl_create.Location = new Point(87, 392);
+            lbl_create.Name = "lbl_create";
+            lbl_create.Size = new Size(101, 17);
+            lbl_create.TabIndex = 23;
+            lbl_create.Text = "Create Account";
+            lbl_create.Click += label6_Click;
             // 
             // label5
             // 
@@ -85,8 +85,9 @@
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(213, 35);
             btnRegister.TabIndex = 20;
-            btnRegister.Text = "REGISTER";
+            btnRegister.Text = "LOGIN";
             btnRegister.UseVisualStyleBackColor = false;
+            btnRegister.Click += btnRegister_Click;
             // 
             // chkShowPass
             // 
@@ -99,6 +100,7 @@
             chkShowPass.TabIndex = 19;
             chkShowPass.Text = "Show Password";
             chkShowPass.UseVisualStyleBackColor = true;
+            chkShowPass.CheckedChanged += chkShowPass_CheckedChanged;
             // 
             // txtPassword
             // 
@@ -108,6 +110,7 @@
             txtPassword.Location = new Point(46, 199);
             txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '•';
             txtPassword.Size = new Size(216, 28);
             txtPassword.TabIndex = 16;
             // 
@@ -157,7 +160,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(289, 505);
-            Controls.Add(label6);
+            Controls.Add(lbl_create);
             Controls.Add(label5);
             Controls.Add(btnClear);
             Controls.Add(btnRegister);
@@ -179,7 +182,7 @@
 
         #endregion
 
-        private Label label6;
+        private Label lbl_create;
         private Label label5;
         private Button btnClear;
         private Button btnRegister;

@@ -37,7 +37,7 @@ namespace loginRegister_01
             }
             else
             {
-                MessageBox.Show("Impossivel de cadastrar", "Cadastramento", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Impossivel de cadastrar. Certifica-te de que todos os campos foram preenchidos", "Cadastramento", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 txtUsername.Text = "";
                 txtPassword.Text = "";

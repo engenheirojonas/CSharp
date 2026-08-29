@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79364AE7-EA35-4DEC-B0EB-67C1B88C5842}|dashboard_01.csproj|i:\\repositorios\\csharp\\treinamentos\\dashboard\\dashboard_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79364AE7-EA35-4DEC-B0EB-67C1B88C5842}|dashboard_01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CBA1D2F2-7D70-4D1B-4143-338AB0FC64B4}|dashboard_01.csproj|i:\\repositorios\\csharp\\treinamentos\\dashboard\\dashboard_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA1D2F2-7D70-4D1B-4143-338AB0FC64B4}|dashboard_01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79364AE7-EA35-4DEC-B0EB-67C1B88C5842}|dashboard_01.csproj|i:\\repositorios\\csharp\\treinamentos\\dashboard\\dashboard_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79364AE7-EA35-4DEC-B0EB-67C1B88C5842}|dashboard_01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBA1D2F2-7D70-4D1B-4143-338AB0FC64B4}|dashboard_01.csproj|I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CBA1D2F2-7D70-4D1B-4143-338AB0FC64B4}|dashboard_01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T19:02:53.777Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAtwGAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T18:59:59.793Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_01\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T17:08:46.051Z",
-              "EditorCaption": " [Projeto]"
             }
           ]
         }

@@ -117,4 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnConfig.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAWdJREFUSEvl
+        lD9LxEAQxcNV2vtJRLjK3kawFWzsbEWwESW1lXAIgn4PGy0Ev8CBpUfI30ZELLSNb5a3uc3uRFhylf5g
+        yM68N7OXbC7J/6Asy1YLyuPRhktQjqNpmg0uO/yBQxtovQFo/OKAp7ZtJ0VRPPsDbY54TNN0gus9829a
+        dGDYoVGLBW0JNl0ouok8z3dpC7EmDNjCdcb1J+UA6PZuLxFTrvWzwaAbGj5YCoBnv67rQ6YB8mM445al
+        JSi+U5Q4ZdmAxj1HM1FV1QllA2oHjv7Gch8Id47pleXu0fmRZdka9blTvzJNQ+CQUhpnkuPV23aae4E7
+        OxcP1ua8pFfyX7EboPla8pgNkB9LPghM3SOC+YXlqEeEszkzTT4Qu0OG6YhlAzaLPeSS5SUYssrX9IKl
+        PhTl8az+jyZAHP2pwB1u0qYDU9THTjy4PjDX/2AuYz7XqK1zGYcd6Afl8WjDJSj/aZLkB1ojBOrtyUtI
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnContact.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAO1JREFUSEvt
+        VTsOgkAQ3SN4EXtLruYBjIWJsTAWhI6r2HkDwJoj6Mxm3mQIy66R3Y6XvDDz3gyPTwhuQxJ931fETyFW
+        HBAyslED5IayYXUA9kK0/qqAYRgO2Lc9fF9rEUDXdWf4VN9E9hDtKfWLj9zjXNhbDCDtCM/wIrbuCfe2
+        t34sYKIv9SFa/++AFHR+aZGe5wmeYS12EtiJXhmFPOATW5F/gp5Xi8xIBpDWwDNsxE4CO7MAqmtoESbf
+        BWYnAXR8o6ev8uonDViDz7MiB4E5LYh31OM47mRuBvbsjsgzYMYGFCEHlP3hbIjDuS+h9nHrs1P2nwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCalendar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAG9JREFUSEvd
+        lUEKwDAQAvdp+f839iFtCvZkik0ksO2AB4mrx8R/yczjEuwjb3PEloEebPeBoYY6ZhBeEuoYGRDUGXCF
+        OmYUXhHqGBkQ1BtwPaEOZj0hA4J6A64n1MGsJ2RAUGfAFeqY/rj3w/kgESek2qyDjk8CrwAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
 </root>

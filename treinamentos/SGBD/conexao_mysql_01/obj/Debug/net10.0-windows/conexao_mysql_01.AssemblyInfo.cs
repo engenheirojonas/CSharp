@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("conexao_mysql_01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fec86ae2f533ce9637b4e001559584e7d513acd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54fe795c87cb783167059ba1920b4a80e0f13bd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("conexao_mysql_01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("conexao_mysql_01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,5 @@
+E:\x\wfa_001.exe
+E:\x\wfa_001.dll
+E:\x\wfa_001.deps.json
+E:\x\wfa_001.runtimeconfig.json
+E:\x\wfa_001.pdb

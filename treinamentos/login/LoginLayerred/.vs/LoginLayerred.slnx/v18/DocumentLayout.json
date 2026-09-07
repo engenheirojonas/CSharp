@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2778DEA5-41D9-4094-9620-8B5CEF33418A}|DataAccess\\DataAccess.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\loginlayerred\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2778DEA5-41D9-4094-9620-8B5CEF33418A}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2778DEA5-41D9-4094-9620-8B5CEF33418A}|DataAccess\\DataAccess.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\loginlayerred\\dataaccess\\connexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2778DEA5-41D9-4094-9620-8B5CEF33418A}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\connexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99CC727-8D15-4ECD-8603-7CC9FCE0AB4D}|WinFormsLibrary1\\Domain.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\loginlayerred\\winformslibrary1\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C99CC727-8D15-4ECD-8603-7CC9FCE0AB4D}|WinFormsLibrary1\\Domain.csproj|solutionrelative:winformslibrary1\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99CC727-8D15-4ECD-8603-7CC9FCE0AB4D}|WinFormsLibrary1\\WinFormsLibrary1.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\loginlayerred\\winformslibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99CC727-8D15-4ECD-8603-7CC9FCE0AB4D}|WinFormsLibrary1\\WinFormsLibrary1.csproj|solutionrelative:winformslibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231634C6-6F00-426E-A5FC-E15862D6D570}|Presentation\\Presentation.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\loginlayerred\\presentation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{231634C6-6F00-426E-A5FC-E15862D6D570}|Presentation\\Presentation.csproj|solutionrelative:presentation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-04T18:02:35.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnexionSql.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\DataAccess\\ConnexionSql.cs",
+              "RelativeDocumentMoniker": "DataAccess\\ConnexionSql.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\DataAccess\\ConnexionSql.cs",
+              "RelativeToolTip": "DataAccess\\ConnexionSql.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T17:41:44.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Domain",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\WinFormsLibrary1\\Domain.csproj",
+              "RelativeDocumentMoniker": "WinFormsLibrary1\\Domain.csproj",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\WinFormsLibrary1\\Domain.csproj",
+              "RelativeToolTip": "WinFormsLibrary1\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-04T17:40:14.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\WinFormsLibrary1\\Class1.cs",
+              "RelativeDocumentMoniker": "WinFormsLibrary1\\Class1.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\WinFormsLibrary1\\Class1.cs",
+              "RelativeToolTip": "WinFormsLibrary1\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T17:39:38.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\Presentation\\Form1.cs",
+              "RelativeDocumentMoniker": "Presentation\\Form1.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\LoginLayerred\\Presentation\\Form1.cs [Design]",
+              "RelativeToolTip": "Presentation\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T17:36:24.175Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

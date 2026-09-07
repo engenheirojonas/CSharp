@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JciKbqVbhHE=",
+  "dgSpecHash": "86s4HfiUD3o=",
   "success": true,
-  "projectFilePath": "D:\\Repositorios\\C#\\progressbar\\progressbar_04\\progressbar_04.csproj",
+  "projectFilePath": "I:\\Repositorios\\CSharp\\treinamentos\\progressbar\\progressbar_04\\progressbar_04.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PRO\\.nuget\\packages\\bastion.krypton.extended.circular.progressbar\\1.0.0\\bastion.krypton.extended.circular.progressbar.1.0.0.nupkg.sha512",
     "C:\\Users\\PRO\\.nuget\\packages\\bastion.krypton.extended.debug.tools\\1.0.0\\bastion.krypton.extended.debug.tools.1.0.0.nupkg.sha512",
@@ -14,15 +14,5 @@
     "C:\\Users\\PRO\\.nuget\\packages\\windowsapicodepackcore\\8.0.12\\windowsapicodepackcore.8.0.12.nupkg.sha512",
     "C:\\Users\\PRO\\.nuget\\packages\\windowsapicodepackshell\\8.0.12\\windowsapicodepackshell.8.0.12.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://api.nuget.org/v3/index.json.",
-      "projectPath": "D:\\Repositorios\\C#\\progressbar\\progressbar_04\\progressbar_04.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\Repositorios\\C#\\progressbar\\progressbar_04\\progressbar_04.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

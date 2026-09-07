@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4943AD3-7114-A9B5-6B8A-D7D4C90E3347}|login_complet_project.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\login_complet_project\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4943AD3-7114-A9B5-6B8A-D7D4C90E3347}|login_complet_project.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4943AD3-7114-A9B5-6B8A-D7D4C90E3347}|login_complet_project_01.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\login_complet_project\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4943AD3-7114-A9B5-6B8A-D7D4C90E3347}|login_complet_project_01.csproj|solutionrelative:frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4943AD3-7114-A9B5-6B8A-D7D4C90E3347}|login_complet_project.csproj|i:\\repositorios\\csharp\\treinamentos\\login\\login_complet_project\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4943AD3-7114-A9B5-6B8A-D7D4C90E3347}|login_complet_project.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.Designer.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\frmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "frmLogin.Designer.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\frmLogin.Designer.cs",
+              "RelativeToolTip": "frmLogin.Designer.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAApwIUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T17:07:41.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Projeto]",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\frmLogin.cs [Projeto]",
+              "RelativeToolTip": "frmLogin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T16:59:37.528Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\frmLogin.cs",
+              "RelativeToolTip": "frmLogin.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwE8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T16:32:38.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

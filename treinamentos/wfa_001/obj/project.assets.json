@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorios\\CSharp\\wfa_001\\wfa_001.csproj",
+      "projectUniqueName": "I:\\Repositorios\\CSharp\\treinamentos\\wfa_001\\wfa_001.csproj",
       "projectName": "wfa_001",
-      "projectPath": "D:\\Repositorios\\CSharp\\wfa_001\\wfa_001.csproj",
+      "projectPath": "I:\\Repositorios\\CSharp\\treinamentos\\wfa_001\\wfa_001.csproj",
       "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositorios\\CSharp\\wfa_001\\obj\\",
+      "outputPath": "I:\\Repositorios\\CSharp\\treinamentos\\wfa_001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "I:\\Repositorios\\CSharp\\Xtools\\PacotesNugetLocal\\circularprogressbar": {}
       },
       "frameworks": {
         "net10.0-windows": {

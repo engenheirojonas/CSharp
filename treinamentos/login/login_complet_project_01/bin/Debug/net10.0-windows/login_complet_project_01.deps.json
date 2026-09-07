@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "login_complet_project_01/1.0.0": {
+        "runtime": {
+          "login_complet_project_01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "login_complet_project_01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

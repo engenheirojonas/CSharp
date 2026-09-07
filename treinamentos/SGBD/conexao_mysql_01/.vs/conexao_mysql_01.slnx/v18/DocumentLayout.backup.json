@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repositorios\\CSharp\\treinamentos\\SGBD\\conexao_mysql_01\\",
+  "WorkspaceRootPath": "I:\\Repositorios\\CSharp\\treinamentos\\SGBD\\conexao_mysql_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A185CA9-E2CB-4C33-8E9B-F67734B9192D}|conexao_mysql_01.csproj|d:\\repositorios\\csharp\\treinamentos\\sgbd\\conexao_mysql_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A185CA9-E2CB-4C33-8E9B-F67734B9192D}|conexao_mysql_01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EEA9ADF4-1113-416E-A35A-EAA81B38AEE4}|conexao_mysql_01.csproj|i:\\repositorios\\csharp\\treinamentos\\sgbd\\conexao_mysql_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEA9ADF4-1113-416E-A35A-EAA81B38AEE4}|conexao_mysql_01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,12 +20,12 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Repositorios\\CSharp\\treinamentos\\SGBD\\conexao_mysql_01\\Form1.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\SGBD\\conexao_mysql_01\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Repositorios\\CSharp\\treinamentos\\SGBD\\conexao_mysql_01\\Form1.cs [Design]",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\SGBD\\conexao_mysql_01\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T16:39:08.91Z",
+              "WhenOpened": "2026-09-07T10:23:53.641Z",
               "EditorCaption": " [Design]"
             }
           ]

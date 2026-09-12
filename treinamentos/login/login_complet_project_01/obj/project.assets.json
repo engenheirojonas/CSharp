@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\login_complet_project_01.csproj",
+      "projectUniqueName": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project_01\\login_complet_project_01.csproj",
       "projectName": "login_complet_project_01",
-      "projectPath": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\login_complet_project_01.csproj",
+      "projectPath": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project_01\\login_complet_project_01.csproj",
       "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
-      "outputPath": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project\\obj\\",
+      "outputPath": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_complet_project_01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "I:\\Repositorios\\CSharp\\Xtools\\PacotesNugetLocal\\circularprogressbar": {}
+        "I:\\Repositorios\\CSharp\\Xtools\\PacotesNugetLocal\\SGBD": {},
+        "https://api.nuget.org/v3/index.json -n nuget.org": {}
       },
       "frameworks": {
         "net10.0-windows": {

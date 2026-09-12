@@ -37,6 +37,8 @@
             linkPass = new LinkLabel();
             btnClose = new PictureBox();
             btnMin = new PictureBox();
+            panel2 = new Panel();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnClose).BeginInit();
@@ -150,12 +152,32 @@
             btnMin.TabStop = false;
             btnMin.Click += btnMin_Click;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.DimGray;
+            panel2.Enabled = false;
+            panel2.Location = new Point(317, 116);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(390, 1);
+            panel2.TabIndex = 9;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.DimGray;
+            panel3.Enabled = false;
+            panel3.Location = new Point(317, 185);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(390, 1);
+            panel3.TabIndex = 10;
+            // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(15, 15, 15);
             ClientSize = new Size(780, 330);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
             Controls.Add(btnMin);
             Controls.Add(btnClose);
             Controls.Add(linkPass);
@@ -169,6 +191,7 @@
             Opacity = 0.9D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += frmLogin_Load;
             MouseDown += frmLogin_MouseDown;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -189,5 +212,7 @@
         private PictureBox btnClose;
         private PictureBox btnMin;
         private PictureBox pictureBox1;
+        private Panel panel2;
+        private Panel panel3;
     }
 }

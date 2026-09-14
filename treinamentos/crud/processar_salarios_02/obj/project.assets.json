@@ -297,14 +297,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\processar_salarios_02\\processar_salarios_02.csproj",
+      "projectUniqueName": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02\\processar_salarios_02.csproj",
       "projectName": "processar_salarios_02",
-      "projectPath": "I:\\processar_salarios_02\\processar_salarios_02.csproj",
+      "projectPath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02\\processar_salarios_02.csproj",
       "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
-      "outputPath": "I:\\processar_salarios_02\\obj\\",
+      "outputPath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "I:\\processar_salarios_02\\NuGet.Config",
+        "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02\\NuGet.Config",
         "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

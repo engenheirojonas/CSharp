@@ -297,14 +297,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\processar_salarios\\processar_salarios_01.csproj",
+      "projectUniqueName": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\processar_salarios_01.csproj",
       "projectName": "processar_salarios_01",
-      "projectPath": "I:\\processar_salarios\\processar_salarios_01.csproj",
+      "projectPath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\processar_salarios_01.csproj",
       "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
-      "outputPath": "I:\\processar_salarios\\obj\\",
+      "outputPath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "I:\\processar_salarios\\NuGet.Config",
+        "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\NuGet.Config",
         "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -657,13 +657,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

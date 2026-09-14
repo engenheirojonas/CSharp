@@ -3,6 +3,10 @@ using processar_salarios_01.DAO;
 using System.Drawing.Printing;
 using static processar_salarios_01.DAO.FuncionarioDAO;
 
+//crud
+//Impressão Nativa do Windows (System.Drawing.Printing)--------------------
+
+
 namespace conexao_mysql_01
 {
     public partial class Form1 : Form

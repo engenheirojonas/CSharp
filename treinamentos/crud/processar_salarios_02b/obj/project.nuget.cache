@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "umOnbcNrlJU=",
+  "dgSpecHash": "zI96mqEw7mE=",
   "success": true,
-  "projectFilePath": "I:\\processar_salarios_03\\processar_salarios_02b.csproj",
+  "projectFilePath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\processar_salarios_02b.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PRO\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\PRO\\.nuget\\packages\\google.protobuf\\3.35.0\\google.protobuf.3.35.0.nupkg.sha512",

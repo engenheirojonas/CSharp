@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DwB+J00VChU=",
+  "dgSpecHash": "Yx5dxQZPNyY=",
   "success": true,
-  "projectFilePath": "I:\\processar_salarios\\processar_salarios_01.csproj",
+  "projectFilePath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\processar_salarios_01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PRO\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\PRO\\.nuget\\packages\\google.protobuf\\3.35.0\\google.protobuf.3.35.0.nupkg.sha512",
@@ -12,15 +12,5 @@
     "C:\\Users\\PRO\\.nuget\\packages\\mysql.data\\26.7.0\\mysql.data.26.7.0.nupkg.sha512",
     "C:\\Users\\PRO\\.nuget\\packages\\zstdsharp.port\\0.8.8\\zstdsharp.port.0.8.8.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://api.nuget.org/v3/index.json.",
-      "projectPath": "I:\\processar_salarios\\processar_salarios_01.csproj",
-      "warningLevel": 1,
-      "filePath": "I:\\processar_salarios\\processar_salarios_01.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

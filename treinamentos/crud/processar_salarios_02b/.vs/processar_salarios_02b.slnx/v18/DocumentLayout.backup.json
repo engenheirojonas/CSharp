@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "I:\\processar_salarios_03\\",
+  "WorkspaceRootPath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|i:\\processar_salarios_03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|i:\\repositorios\\csharp\\treinamentos\\crud\\processar_salarios_02b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|I:\\processar_salarios_03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|i:\\repositorios\\csharp\\treinamentos\\crud\\processar_salarios_02b\\dao\\funcionariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|solutionrelative:dao\\funcionariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|i:\\processar_salarios_03\\dao\\funcionariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|solutionrelative:dao\\funcionariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|i:\\repositorios\\csharp\\treinamentos\\crud\\processar_salarios_02b\\conexao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|solutionrelative:conexao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|i:\\processar_salarios_03\\conexao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0111DFD-E4E6-5478-C5AA-1A2BFE930CBC}|processar_salarios_02.csproj|solutionrelative:conexao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A034238-ADAB-6A1D-AD11-7BA84C98D9BA}|processar_salarios_02b.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,23 +30,24 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FuncionarioDAO.cs",
-              "DocumentMoniker": "I:\\processar_salarios_03\\DAO\\FuncionarioDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\FuncionarioDAO.cs",
-              "ToolTip": "I:\\processar_salarios_03\\DAO\\FuncionarioDAO.cs",
-              "RelativeToolTip": "DAO\\FuncionarioDAO.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAmwJ8AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\dao\\FuncionarioDAO.cs",
+              "RelativeDocumentMoniker": "dao\\FuncionarioDAO.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\dao\\FuncionarioDAO.cs",
+              "RelativeToolTip": "dao\\FuncionarioDAO.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAcwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T15:20:18.164Z"
+              "WhenOpened": "2026-09-12T15:20:18.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ConexaoBD.cs",
-              "DocumentMoniker": "I:\\processar_salarios_03\\conexao\\ConexaoBD.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\conexao\\ConexaoBD.cs",
               "RelativeDocumentMoniker": "conexao\\ConexaoBD.cs",
-              "ToolTip": "I:\\processar_salarios_03\\conexao\\ConexaoBD.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\conexao\\ConexaoBD.cs",
               "RelativeToolTip": "conexao\\ConexaoBD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,26 +57,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "I:\\processar_salarios_03\\Form1.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "I:\\processar_salarios_03\\Form1.cs",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAYwNcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAJwAAAAAAAAAAAA3wAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-12T13:03:15.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "I:\\processar_salarios_03\\Form1.cs",
+              "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_02b\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "I:\\processar_salarios_03\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Form1.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\processar_salarios_03\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T13:35:53.419Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-09-12T13:35:53.419Z"
             }
           ]
         }

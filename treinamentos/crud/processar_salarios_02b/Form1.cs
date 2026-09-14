@@ -3,6 +3,10 @@ using processar_salarios_01.DAO;
 using System.Drawing.Printing;
 using static processar_salarios_01.DAO.FuncionarioDAO;
 
+//crud
+//Impressão Nativa do Windows (System.Drawing.Printing) guardando apenas sem visualizar
+//salvaguardar o ficheito em pdf sem visualizar primeiro
+
 namespace conexao_mysql_01
 {
     public partial class Form1 : Form
@@ -147,7 +151,7 @@ namespace conexao_mysql_01
         }
 
 
-        //--------------------Impressão Nativa do Windows (System.Drawing.Printing)--------------------
+//----------Impressão Nativa do Windows (System.Drawing.Printing) guardando apenas sem visualizar--------------------
 
         // Variável global temporária dentro do Form para guardar os dados que a impressora vai ler
         private DadosRecibo? _dadosParaImprimir;

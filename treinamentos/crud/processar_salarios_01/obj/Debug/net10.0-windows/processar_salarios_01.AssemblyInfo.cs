@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("processar_salarios_01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a0eb3159abc3b5d85d98229db5a6b6b1f431f96")]
 [assembly: System.Reflection.AssemblyProductAttribute("processar_salarios_01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("processar_salarios_01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

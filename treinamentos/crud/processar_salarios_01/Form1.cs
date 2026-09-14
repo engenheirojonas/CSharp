@@ -1,6 +1,8 @@
 using MySql.Data.MySqlClient;
 using processar_salarios_01.DAO;
 
+//crud
+
 namespace conexao_mysql_01
 {
     public partial class Form1 : Form

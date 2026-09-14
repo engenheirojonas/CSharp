@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "I:\\processar_salarios\\processar_salarios_01.csproj": {}
+    "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\processar_salarios_01.csproj": {}
   },
   "projects": {
-    "I:\\processar_salarios\\processar_salarios_01.csproj": {
+    "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\processar_salarios_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\processar_salarios\\processar_salarios_01.csproj",
+        "projectUniqueName": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\processar_salarios_01.csproj",
         "projectName": "processar_salarios_01",
-        "projectPath": "I:\\processar_salarios\\processar_salarios_01.csproj",
+        "projectPath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\processar_salarios_01.csproj",
         "packagesPath": "C:\\Users\\PRO\\.nuget\\packages\\",
-        "outputPath": "I:\\processar_salarios\\obj\\",
+        "outputPath": "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "I:\\processar_salarios\\NuGet.Config",
+          "I:\\Repositorios\\CSharp\\treinamentos\\crud\\processar_salarios_01\\NuGet.Config",
           "C:\\Users\\PRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

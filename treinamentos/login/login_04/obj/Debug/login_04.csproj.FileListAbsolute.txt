@@ -1,0 +1,11 @@
+D:\Repositorios\C#\login\login_04\bin\Debug\login_04.exe.config
+D:\Repositorios\C#\login\login_04\bin\Debug\login_04.exe
+D:\Repositorios\C#\login\login_04\bin\Debug\login_04.pdb
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.csproj.AssemblyReference.cache
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.Form1.resources
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.Properties.Resources.resources
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.csproj.GenerateResource.cache
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.csproj.CoreCompileInputs.cache
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.exe
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.pdb
+D:\Repositorios\C#\login\login_04\obj\Debug\login_04.paginainicial.resources

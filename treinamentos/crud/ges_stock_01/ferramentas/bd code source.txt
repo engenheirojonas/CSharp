@@ -1,0 +1,36 @@
+Crie a base de dados e as tabelas executando o script abaixo no seu MySQL Workbench ou PHPMyAdmin. Este esquema garante a integridade referencial com chaves estrangeiras. PARA APLICAÇAO ges_stock_01
+
+
+CREATE DATABASE SistemaStock;
+USE SistemaStock;
+
+-- 1. Tabela de Categorias
+CREATE TABLE Categorias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    descricao TEXT
+);
+
+-- 2. Tabela de Fornecedores
+CREATE TABLE Fornecedores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    contacto VARCHAR(20),
+    email VARCHAR(100),
+    endereco TEXT
+);
+
+-- 3. Tabela de Produtos
+CREATE TABLE Produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    codigo_barras VARCHAR(50) UNIQUE,
+    nome VARCHAR(150) NOT NULL,
+    preco_compra DECIMAL(10,2) NOT NULL,
+    preco_venda DECIMAL(10,2) NOT NULL,
+    quantidade_atual INT DEFAULT 0,
+    quantidade_minima INT DEFAULT 5,
+    categoria_id INT,
+    fornecedor_id INT,
+    FOREIGN KEY (categoria_id) REFERENCES Categorias(id) ON DELETE SET NULL,
+    FOREIGN KEY (fornecedor_id) REFERENCES Fornecedores(id) ON DELETE SET NULL
+);

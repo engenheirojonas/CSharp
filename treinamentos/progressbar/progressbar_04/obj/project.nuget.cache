@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "86s4HfiUD3o=",
+  "success": true,
+  "projectFilePath": "I:\\Repositorios\\CSharp\\treinamentos\\progressbar\\progressbar_04\\progressbar_04.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PRO\\.nuget\\packages\\bastion.krypton.extended.circular.progressbar\\1.0.0\\bastion.krypton.extended.circular.progressbar.1.0.0.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\bastion.krypton.extended.debug.tools\\1.0.0\\bastion.krypton.extended.debug.tools.1.0.0.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\bastion.krypton.extended.developer.utilities\\1.0.0\\bastion.krypton.extended.developer.utilities.1.0.0.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\bastion.krypton.extended.shared\\1.0.0\\bastion.krypton.extended.shared.1.0.0.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\bastion.krypton.toolkit\\1.0.0\\bastion.krypton.toolkit.1.0.0.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\microsoft.netcore.platforms\\7.0.4\\microsoft.netcore.platforms.7.0.4.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\unofficial.winformanimation\\2.0.2\\unofficial.winformanimation.2.0.2.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\windowsapicodepackcore\\8.0.12\\windowsapicodepackcore.8.0.12.nupkg.sha512",
+    "C:\\Users\\PRO\\.nuget\\packages\\windowsapicodepackshell\\8.0.12\\windowsapicodepackshell.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

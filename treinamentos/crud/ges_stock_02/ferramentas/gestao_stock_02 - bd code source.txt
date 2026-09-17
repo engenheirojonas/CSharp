@@ -1,0 +1,76 @@
+Aplication 
+
+
+Primeiro Passo:
+Crie a base de dados e as tabelas executando o script abaixo no seu MySQL Workbench ou PHPMyAdmin. Este esquema garante a integridade referencial com chaves estrangeiras.
+
+CREATE DATABASE bd_SistemaStock_02;
+USE bd_SistemaStock_02;;
+
+-- 1. Tabela de Categorias
+CREATE TABLE Categorias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    descricao TEXT
+);
+
+-- 2. Tabela de Fornecedores
+CREATE TABLE Fornecedores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    contacto VARCHAR(20),
+    email VARCHAR(100),
+    endereco TEXT
+);
+
+-- 3. Tabela de Produtos
+CREATE TABLE Produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    codigo_barras VARCHAR(50) UNIQUE,
+    nome VARCHAR(150) NOT NULL,
+    preco_compra DECIMAL(10,2) NOT NULL,
+    preco_venda DECIMAL(10,2) NOT NULL,
+    quantidade_atual INT DEFAULT 0,
+    quantidade_minima INT DEFAULT 5,
+    categoria_id INT,
+    fornecedor_id INT,
+    FOREIGN KEY (categoria_id) REFERENCES Categorias(id) ON DELETE SET NULL,
+    FOREIGN KEY (fornecedor_id) REFERENCES Fornecedores(id) ON DELETE SET NULL
+);
+
+
+
+Segundo Passo:
+Primeiro, execute este script no seu MySQL. Ele cria a tabela de histórico de movimentações e um Trigger (Gatilho). O Trigger atualizará automaticamente a quantidade na tabela Produtos sempre que uma entrada ou saída for registada.
+USE bd_SistemaStock_02;
+
+
+-- Tabela para histórico de movimentações
+CREATE TABLE Movimentacoes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produto_id INT NOT NULL,
+    tipo ENUM('ENTRADA', 'SAÍDA') NOT NULL,
+    quantidade INT NOT NULL,
+    data_movimentacao DATETIME DEFAULT CURRENT_TIMESTAMP,
+    motivo VARCHAR(255),
+    FOREIGN KEY (produto_id) REFERENCES Produtos(id) ON DELETE CASCADE
+);
+
+
+-- Trigger para Atualização Automática de Stock
+DELIMITER $$
+CREATE TRIGGER trg_atualiza_stock AFTER INSERT ON Movimentacoes
+FOR EACH ROW
+BEGIN
+    IF NEW.tipo = 'ENTRADA' THEN
+        UPDATE Produtos 
+        SET quantidade_atual = quantidade_atual + NEW.quantidade
+        WHERE id = NEW.produto_id;
+    ELSEIF NEW.tipo = 'SAÍDA' THEN
+        UPDATE Produtos 
+        SET quantidade_atual = quantidade_atual - NEW.quantidade
+        WHERE id = NEW.produto_id;
+    END IF;
+END$$
+DELIMITER ;
+

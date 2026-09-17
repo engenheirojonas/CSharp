@@ -1,0 +1,5 @@
+<Project>
+    <ItemGroup>
+    <PackageReference Include="Bastion.Krypton.Extended.Circular.ProgressBar" Version="1.0.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,328 @@
+using MySql.Data.MySqlClient;
+using processar_salarios_01.DAO;
+using System.Drawing.Printing;
+using static processar_salarios_01.DAO.FuncionarioDAO;
+
+//crud
+//Impressão Nativa do Windows (System.Drawing.Printing) guardando apenas sem visualizar
+//salvaguardar o ficheito em pdf sem visualizar primeiro
+
+namespace conexao_mysql_01
+{
+    public partial class Form1 : Form
+    {
+        private readonly FuncionarioDAO dao = new FuncionarioDAO();
+        public Form1()
+        {
+            InitializeComponent();
+            AtualizarGrade();
+        }
+
+        // Atualiza o DataGridView com os dados do MySQL
+        private void AtualizarGrade()
+        {
+            try
+            {
+                dgvFuncionarios.DataSource = dao.ListarTodos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        // Limpa os campos de texto do formulário
+        private void LimparCampos()
+        {
+            txtID.Clear();
+            txtNome.Clear();
+            txtCargo.Clear();
+            txtDepartamento.Clear();
+            txtSalarioBruto.Clear();
+            txtBonus.Clear();
+            txtNome.Focus();
+        }
+
+        // Evento do botão Salvar (CREATE)
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtNome.Text) || string.IsNullOrWhiteSpace(txtSalarioBruto.Text))
+                {
+                    MessageBox.Show("Preencha obrigatoriamente Nome e Salário Bruto.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                decimal bruto = Convert.ToDecimal(txtSalarioBruto.Text);
+                decimal bonus = string.IsNullOrEmpty(txtBonus.Text) ? 0 : Convert.ToDecimal(txtBonus.Text);
+
+                if (dao.Inserir(txtNome.Text, txtCargo.Text, txtDepartamento.Text, bruto, bonus))
+                {
+                    MessageBox.Show("Folha de pagamento processada e salva com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    AtualizarGrade();
+                    LimparCampos();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro de validação: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                if (string.IsNullOrEmpty(txtID.Text))
+                {
+                    MessageBox.Show("Selecione um funcionário na tabela abaixo para editar.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                int id = Convert.ToInt32(txtID.Text);
+                decimal bruto = Convert.ToDecimal(txtSalarioBruto.Text);
+                decimal bonus = Convert.ToDecimal(txtBonus.Text);
+
+                if (dao.Atualizar(id, txtNome.Text, txtCargo.Text, txtDepartamento.Text, bruto, bonus))
+                {
+                    MessageBox.Show("Dados do funcionário atualizados!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    AtualizarGrade();
+                    LimparCampos();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(txtID.Text))
+                {
+                    MessageBox.Show("Selecione um funcionário na tabela para o excluir.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (MessageBox.Show("Deseja realmente excluir este registo?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    int id = Convert.ToInt32(txtID.Text);
+                    if (dao.Excluir(id))
+                    {
+                        MessageBox.Show("Registo removido do sistema.", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        AtualizarGrade();
+                        LimparCampos();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void dgvFuncionarios_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            {
+                if (e.RowIndex >= 0)
+                {
+                    DataGridViewRow linha = dgvFuncionarios.Rows[e.RowIndex];
+                    txtID.Text = linha.Cells["ID"].Value.ToString();
+                    txtNome.Text = linha.Cells["Nome"].Value.ToString();
+                    txtCargo.Text = linha.Cells["Cargo"].Value.ToString();
+                    txtDepartamento.Text = linha.Cells["Departamento"].Value.ToString();
+                    txtSalarioBruto.Text = linha.Cells["Salário Bruto"].Value.ToString();
+                    txtBonus.Text = linha.Cells["Bónus"].Value.ToString();
+                }
+
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            LimparCampos();
+        }
+
+
+//----------Impressão Nativa do Windows (System.Drawing.Printing) guardando apenas sem visualizar--------------------
+
+        // Variável global temporária dentro do Form para guardar os dados que a impressora vai ler
+        private DadosRecibo? _dadosParaImprimir;
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                if (string.IsNullOrEmpty(txtID.Text))
+                {
+                    MessageBox.Show("Por favor, selecione um funcionário na lista antes de imprimir.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                int idSelecionado = Convert.ToInt32(txtID.Text);
+                _dadosParaImprimir = dao.ObterDadosRecibo(idSelecionado);
+
+                if (_dadosParaImprimir == null)
+                {
+                    MessageBox.Show("Funcionário não encontrado na base de dados.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Janela para escolher onde guardar o PDF gerado
+                using (SaveFileDialog saveDlg = new SaveFileDialog())
+                {
+                    saveDlg.Filter = "Ficheiro PDF (*.pdf)|*.pdf";
+                    saveDlg.FileName = $"Recibo_Vencimento_{idSelecionado}_{DateTime.Now:yyyyMMdd}.pdf";
+
+                    if (saveDlg.ShowDialog() == DialogResult.OK)
+                    {
+                        using (PrintDocument pd = new PrintDocument())
+                        {
+                            pd.DocumentName = $"Recibo_{idSelecionado}";
+                            pd.PrintPage += new PrintPageEventHandler(DesenharReciboPage);
+
+                            // Força a utilização da impressora nativa de PDF do Windows
+                            pd.PrinterSettings.PrinterName = "Microsoft Print to PDF";
+
+                            // Define o caminho de salvamento do ficheiro gerado pela impressora virtual
+                            pd.PrinterSettings.PrintToFile = true;
+                            pd.PrinterSettings.PrintFileName = saveDlg.FileName;
+
+                            // Desativa os diálogos de configuração para correr em segundo plano de forma síncrona
+                            pd.PrintController = new StandardPrintController();
+
+                            // Executa a exportação direta
+                            pd.Print();
+                        }
+
+                        MessageBox.Show($"Recibo em PDF guardado com sucesso em:\n{saveDlg.FileName}", "Exportação Concluída", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        // Abre o PDF automaticamente após a criação
+                        System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                        {
+                            FileName = saveDlg.FileName,
+                            UseShellExecute = true
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Certifique-se de que a funcionalidade 'Microsoft Print to PDF' está ativa no seu Windows.\n\nDetalhe do Erro: {ex.Message}", "Falha na Impressão Direta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+            // O "Coração" da biblioteca System.Drawing.Printing
+            // Este método desenha visualmente o recibo usando coordenadas (X, Y) em pixéis
+        private void DesenharReciboPage(object sender, PrintPageEventArgs e)
+        {
+            if (_dadosParaImprimir == null) return;
+
+            Graphics g = e.Graphics!;
+
+            // Definição de Fontes e Pincéis (Cores)
+            Font fontTitulo = new Font("Arial", 16, FontStyle.Bold);
+            Font fontSubtitulo = new Font("Arial", 10, FontStyle.Regular);
+            Font fontSubtituloBold = new Font("Arial", 10, FontStyle.Bold);
+            Font fontCorpo = new Font("Arial", 10, FontStyle.Regular);
+            Font fontCorpoBold = new Font("Arial", 10, FontStyle.Bold);
+
+            Brush pincelPreto = Brushes.Black;
+            Pen canetaCinza = new Pen(Color.LightGray, 1);
+            Pen canetaPretaGrossa = new Pen(Color.Black, 2);
+
+            // Margens de início
+            int x = 50;
+            int y = 50;
+            int larguraUtil = e.PageBounds.Width - 100; // Descontando margens esquerda/direita
+
+            // --- CABEÇALHO ---
+            g.DrawString("SUA EMPRESA LTDA", fontTitulo, pincelPreto, x, y);
+            y += 25;
+            g.DrawString("NIF: 500123456 | Endereço Operacional, Luanda", fontSubtitulo, pincelPreto, x, y);
+            y += 30;
+            g.DrawString("RECIBO DE VENCIMENTO", fontTitulo, pincelPreto, x, y);
+            y += 40;
+
+            // --- TABELA DE DADOS DO TRABALHADOR (Retângulo) ---
+            g.DrawRectangle(canetaCinza, x, y, larguraUtil, 70);
+            g.DrawString($"ID Trabalhador: {_dadosParaImprimir.Id}", fontCorpoBold, pincelPreto, x + 10, y + 10);
+            g.DrawString($"Período: {DateTime.Now:MMMM / yyyy}", fontCorpo, pincelPreto, x + 300, y + 10);
+            g.DrawString($"Nome: {_dadosParaImprimir.Nome}", fontCorpo, pincelPreto, x + 10, y + 30);
+            g.DrawString($"Cargo: {_dadosParaImprimir.Cargo}", fontCorpo, pincelPreto, x + 10, y + 50);
+            g.DrawString($"Departamento: {_dadosParaImprimir.Depto}", fontCorpo, pincelPreto, x + 300, y + 50);
+            y += 90;
+
+            // --- TABELA FINANCEIRA (Cabeçalhos de colunas) ---
+            g.DrawString("Descrição", fontSubtituloBold, pincelPreto, x, y);
+            g.DrawString("Vencimentos", fontSubtituloBold, pincelPreto, x + 300, y);
+            g.DrawString("Descontos", fontSubtituloBold, pincelPreto, x + 450, y);
+            y += 20;
+            g.DrawLine(canetaPretaGrossa, x, y, x + larguraUtil, y);
+            y += 10;
+
+            // Linha: Salário Base
+            g.DrawString("Salário Base / Bruto", fontCorpo, pincelPreto, x, y);
+            g.DrawString($"{_dadosParaImprimir.Bruto:N2} €", fontCorpo, pincelPreto, x + 300, y);
+            g.DrawString("-", fontCorpo, pincelPreto, x + 450, y);
+            y += 25;
+
+            // Linha: Bónus
+            g.DrawString("Bónus de Produtividade", fontCorpo, pincelPreto, x, y);
+            g.DrawString($"{_dadosParaImprimir.Bonus:N2} €", fontCorpo, pincelPreto, x + 300, y);
+            g.DrawString("-", fontCorpo, pincelPreto, x + 450, y);
+            y += 25;
+
+            // Linha: INSS
+            g.DrawString("Segurança Social / INSS (11%)", fontCorpo, pincelPreto, x, y);
+            g.DrawString("-", fontCorpo, pincelPreto, x + 300, y);
+            g.DrawString($"{_dadosParaImprimir.Inss:N2} €", fontCorpo, pincelPreto, x + 450, y);
+            y += 25;
+
+            // Linha: IRS
+            g.DrawString("Retenção na Fonte / IRS", fontCorpo, pincelPreto, x, y);
+            g.DrawString("-", fontCorpo, pincelPreto, x + 300, y);
+            g.DrawString($"{_dadosParaImprimir.Irs:N2} €", fontCorpo, pincelPreto, x + 450, y);
+            y += 25;
+
+            // Linha divisória de Totais
+            g.DrawLine(canetaCinza, x, y, x + larguraUtil, y);
+            y += 10;
+
+            // Totais calculados
+            decimal totalVencimentos = _dadosParaImprimir.Bruto + _dadosParaImprimir.Bonus;
+            decimal totalDescontos = _dadosParaImprimir.Inss + _dadosParaImprimir.Irs;
+
+            g.DrawString("Totais", fontCorpoBold, pincelPreto, x, y);
+            g.DrawString($"{totalVencimentos:N2} €", fontCorpoBold, pincelPreto, x + 300, y);
+            g.DrawString($"{totalDescontos:N2} €", fontCorpoBold, pincelPreto, x + 450, y);
+            y += 35;
+
+            // Bloco de Salário Líquido
+            g.FillRectangle(Brushes.LightGray, x, y, larguraUtil, 30);
+            g.DrawString("LÍQUIDO A RECEBER:", fontSubtituloBold, pincelPreto, x + 10, y + 7);
+            g.DrawString($"{_dadosParaImprimir.Liquido:N2} €", fontTitulo, pincelPreto, x + 300, y + 2);
+            y += 80;
+
+            // --- CAMPOS DE ASSINATURA ---
+            g.DrawLine(canetaCinza, x + 20, y, x + 220, y);
+            g.DrawLine(canetaCinza, x + 320, y, x + 520, y);
+            y += 5;
+            g.DrawString("Assinatura da Empresa", fontCorpo, pincelPreto, x + 50, y);
+            g.DrawString("Assinatura do Trabalhador", fontCorpo, pincelPreto, x + 340, y);
+
+            // Informa o subsistema que não há mais páginas a serem impressas neste documento
+            e.HasMorePages = false;
+
+        }
+    }
+}

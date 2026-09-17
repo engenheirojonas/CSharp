@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\ges_stock_02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|i:\\ges_stock_02\\frmmovimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|solutionrelative:frmmovimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|i:\\ges_stock_02\\dao\\movimentacaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|solutionrelative:dao\\movimentacaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|i:\\ges_stock_02\\frmmovimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|solutionrelative:frmmovimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|i:\\ges_stock_02\\ferramentas\\escopo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|solutionrelative:ferramentas\\escopo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|i:\\ges_stock_02\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|solutionrelative:frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|i:\\ges_stock_02\\frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|solutionrelative:frmprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|i:\\ges_stock_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78FA1FC5-9F6F-E69F-E2FB-B62F6C090195}|gestao_stock_02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "escopo.txt",
+              "DocumentMoniker": "I:\\ges_stock_02\\ferramentas\\escopo.txt",
+              "RelativeDocumentMoniker": "ferramentas\\escopo.txt",
+              "ToolTip": "I:\\ges_stock_02\\ferramentas\\escopo.txt",
+              "RelativeToolTip": "ferramentas\\escopo.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-16T16:23:59.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMovimentacao.cs",
+              "DocumentMoniker": "I:\\ges_stock_02\\frmMovimentacao.cs",
+              "RelativeDocumentMoniker": "frmMovimentacao.cs",
+              "ToolTip": "I:\\ges_stock_02\\frmMovimentacao.cs",
+              "RelativeToolTip": "frmMovimentacao.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwGAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T16:05:21.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMovimentacao.cs [Projeto]",
+              "DocumentMoniker": "I:\\ges_stock_02\\frmMovimentacao.cs",
+              "RelativeDocumentMoniker": "frmMovimentacao.cs",
+              "ToolTip": "I:\\ges_stock_02\\frmMovimentacao.cs [Projeto]",
+              "RelativeToolTip": "frmMovimentacao.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T16:04:25.08Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmProdutos.cs [Projeto]",
+              "DocumentMoniker": "I:\\ges_stock_02\\frmProdutos.cs",
+              "RelativeDocumentMoniker": "frmProdutos.cs",
+              "ToolTip": "I:\\ges_stock_02\\frmProdutos.cs [Projeto]",
+              "RelativeToolTip": "frmProdutos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T16:04:22.659Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\ges_stock_02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "I:\\ges_stock_02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T14:46:03.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimentacaoDAO.cs",
+              "DocumentMoniker": "I:\\ges_stock_02\\dao\\MovimentacaoDAO.cs",
+              "RelativeDocumentMoniker": "dao\\MovimentacaoDAO.cs",
+              "ToolTip": "I:\\ges_stock_02\\dao\\MovimentacaoDAO.cs",
+              "RelativeToolTip": "dao\\MovimentacaoDAO.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T14:17:09.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmProdutos.cs",
+              "DocumentMoniker": "I:\\ges_stock_02\\frmProdutos.cs",
+              "RelativeDocumentMoniker": "frmProdutos.cs",
+              "ToolTip": "I:\\ges_stock_02\\frmProdutos.cs",
+              "RelativeToolTip": "frmProdutos.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAnwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T16:05:55.113Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4+X4rkvk81A=",
+  "success": true,
+  "projectFilePath": "I:\\Repositorios\\CSharp\\treinamentos\\login\\login_access_01\\loginRegister_access_01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PRO\\.nuget\\packages\\system.data.oledb\\10.0.11\\system.data.oledb.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

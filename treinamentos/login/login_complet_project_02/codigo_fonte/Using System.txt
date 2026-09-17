@@ -1,0 +1,23 @@
+#codigo para fazer mover um form com formborderstyle none#
+
+using System.Runtime.InteropServices;
+
+#em baixo de  public frmLogin()
+ {
+     InitializeComponent();
+ }
+#
+
+[DllImport("user32.DLL", EntryPoint= "ReleaseCapture")]
+private extern static void ReleaseCapture ();
+[DllImport("user32.DLL", EntryPoint= "SendMessage")]
+private extern static void SendMessage (
+	System.IntPtr hund, int wmsg, int wparam, int lparam
+);
+
+
+#colocar dentro de private void frmLogin_MouseDown(object sender, MouseEventArgs e)
+{
+
+ReleaseCapture();
+SendMessage (this.Handle, 0x112, 0xf012, 0);

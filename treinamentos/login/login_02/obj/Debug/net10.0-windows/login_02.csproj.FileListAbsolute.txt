@@ -1,0 +1,17 @@
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.login.resources
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.menu.resources
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.csproj.GenerateResource.cache
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.AssemblyInfoInputs.cache
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.AssemblyInfo.cs
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.csproj.CoreCompileInputs.cache
+D:\Repositorios\C#\login\login_02\bin\Debug\net10.0-windows\login_02.exe
+D:\Repositorios\C#\login\login_02\bin\Debug\net10.0-windows\login_02.deps.json
+D:\Repositorios\C#\login\login_02\bin\Debug\net10.0-windows\login_02.runtimeconfig.json
+D:\Repositorios\C#\login\login_02\bin\Debug\net10.0-windows\login_02.dll
+D:\Repositorios\C#\login\login_02\bin\Debug\net10.0-windows\login_02.pdb
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.dll
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\refint\login_02.dll
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.pdb
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\login_02.genruntimeconfig.cache
+D:\Repositorios\C#\login\login_02\obj\Debug\net10.0-windows\ref\login_02.dll

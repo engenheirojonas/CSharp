@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "progressbar_01/1.0.0": {
+        "runtime": {
+          "progressbar_01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "progressbar_01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

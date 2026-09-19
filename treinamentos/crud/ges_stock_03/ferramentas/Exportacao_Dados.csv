@@ -1,0 +1,4 @@
+﻿id;codigo_barras;nome;preco_compra;preco_venda;quantidade_atual;quantidade_minima;Categoria;Fornecedor
+2;222;Arroz;2000,00;3500,00;60;5;Mercearia e Alimentos;Ango
+4;333;Feijão;2000,00;3500,00;10;5;Higiene Pessoal e Cosmética;Cabo
+5;778;Papel Higiénico;2000,00;3500,00;10;5;Limpeza e Cuidados com a Casa;super

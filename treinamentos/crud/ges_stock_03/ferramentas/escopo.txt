@@ -1,0 +1,12 @@
+
+gestao_stock_02
+
+* Cadastro de Produtos com campos obrigatórios, validação de dados e
+
+* Movimentação de Stock (Entradas e Saídas) com atualização automática 
+  do saldo na tabela de produtos, além de adicionar um sistema visual 
+  de alertas para stock baixo.
+
+* Segurança (Login), 
+* Gestão Visual (Dashboard)  
+* Exportação de Dados.

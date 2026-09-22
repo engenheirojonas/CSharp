@@ -31,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "mainForm.cs [Projeto]",
+              "Title": "mainForm.cs [Design]",
               "DocumentMoniker": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_02\\mainForm.cs",
               "RelativeDocumentMoniker": "mainForm.cs",
-              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_02\\mainForm.cs [Projeto]",
-              "RelativeToolTip": "mainForm.cs [Projeto]",
+              "ToolTip": "I:\\Repositorios\\CSharp\\treinamentos\\dashboard\\dashboard_02\\mainForm.cs [Design]",
+              "RelativeToolTip": "mainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T13:28:40.451Z",
-              "EditorCaption": " [Projeto]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "dashboard_02.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-03T13:05:48.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T13:05:48.016Z"
             },
             {
               "$type": "Document",
@@ -74,8 +73,7 @@
               "RelativeToolTip": "mainForm.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T13:01:07.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-01T13:01:07.771Z"
             }
           ]
         }

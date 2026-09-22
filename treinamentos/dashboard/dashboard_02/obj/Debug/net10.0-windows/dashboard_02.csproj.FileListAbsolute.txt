@@ -21,3 +21,4 @@ I:\Repositorios\CSharp\treinamentos\dashboard\dashboard_02\obj\Debug\net10.0-win
 I:\Repositorios\CSharp\treinamentos\dashboard\dashboard_02\obj\Debug\net10.0-windows\dashboard_02.pdb
 I:\Repositorios\CSharp\treinamentos\dashboard\dashboard_02\obj\Debug\net10.0-windows\dashboard_02.genruntimeconfig.cache
 I:\Repositorios\CSharp\treinamentos\dashboard\dashboard_02\obj\Debug\net10.0-windows\ref\dashboard_02.dll
+I:\Repositorios\CSharp\treinamentos\dashboard\dashboard_02\obj\Debug\net10.0-windows\dashboar.42B9E16E.Up2Date

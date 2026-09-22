@@ -1,0 +1,3 @@
+sisfatura_01
+
+um sistema de faturação em C# (Windows Forms) com base de dados MySQL. O sistema suporta operações completas de CRUD (Clientes e Produtos) e permite a impressão de faturas tanto em formato A4 como em formato Térmico (80mm).

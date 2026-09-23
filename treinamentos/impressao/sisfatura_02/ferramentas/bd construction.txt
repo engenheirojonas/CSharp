@@ -1,0 +1,40 @@
+CREATE DATABASE bd_sistemafatura_01;
+USE bd_sistemafatura_01;
+
+-- 1. Tabela de Clientes
+CREATE TABLE Clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    nif VARCHAR(20) NOT NULL UNIQUE,
+    endereco VARCHAR(150),
+    telefone VARCHAR(20)
+);
+
+-- 2. Tabela de Produtos
+CREATE TABLE Produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    descricao VARCHAR(100) NOT NULL,
+    preco_unitario DECIMAL(10,2) NOT NULL,
+    stock INT NOT NULL
+);
+
+-- 3. Tabela de Faturas (Cabeçalho)
+CREATE TABLE Faturas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    data_emissao DATETIME DEFAULT CURRENT_TIMESTAMP,
+    cliente_id INT,
+    total DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (cliente_id) REFERENCES Clientes(id)
+);
+
+-- 4. Tabela de Itens da Fatura (Detalhes)
+CREATE TABLE Fatura_Itens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fatura_id INT,
+    produto_id INT,
+    quantidade INT NOT NULL,
+    preco_unitario DECIMAL(10,2) NOT NULL,
+    subtotal DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (fatura_id) REFERENCES Faturas(id) ON DELETE CASCADE,
+    FOREIGN KEY (produto_id) REFERENCES Produtos(id)
+);

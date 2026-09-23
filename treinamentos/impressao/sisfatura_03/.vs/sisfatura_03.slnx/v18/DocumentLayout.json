@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\X developing\\sisfatura_03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|i:\\x developing\\sisfatura_03\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|i:\\x developing\\sisfatura_03\\conexao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|solutionrelative:conexao\\conexaobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|i:\\x developing\\sisfatura_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|i:\\x developing\\sisfatura_03\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{308F6317-193A-C1E9-B991-3E4AA02E7BEE}|sisfatura_03.csproj|solutionrelative:nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\X developing\\sisfatura_03\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "I:\\X developing\\sisfatura_03\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:35:02.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConexaoBD.cs",
+              "DocumentMoniker": "I:\\X developing\\sisfatura_03\\conexao\\ConexaoBD.cs",
+              "RelativeDocumentMoniker": "conexao\\ConexaoBD.cs",
+              "ToolTip": "I:\\X developing\\sisfatura_03\\conexao\\ConexaoBD.cs",
+              "RelativeToolTip": "conexao\\ConexaoBD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:29:53.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "I:\\X developing\\sisfatura_03\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "frmPrincipal.cs",
+              "ToolTip": "I:\\X developing\\sisfatura_03\\frmPrincipal.cs",
+              "RelativeToolTip": "frmPrincipal.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAwFoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:20:29.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "nuget.config",
+              "DocumentMoniker": "I:\\X developing\\sisfatura_03\\nuget.config",
+              "RelativeDocumentMoniker": "nuget.config",
+              "ToolTip": "I:\\X developing\\sisfatura_03\\nuget.config",
+              "RelativeToolTip": "nuget.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-22T12:35:36.989Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
